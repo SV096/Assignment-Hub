@@ -21,6 +21,3 @@ npm run dev
 - ✅ Performance optimization
 - ✅ Error handling and edge cases
 
----
-
-**Start with**: [Employee Directory](./employee-directory)
