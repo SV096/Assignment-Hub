@@ -32,6 +32,7 @@ npm install && npm run dev
 
 ## Requirements
 
+<<<<<<< HEAD
 - Node.js v14+
 - MongoDB running locally
 - npm or yarn
@@ -45,3 +46,5 @@ Assignment-Hub/
 ```
 
 Each project has its own README with detailed setup instructions.
+=======
+>>>>>>> 4e81c292e5052b353310b31bb31721960f1ba488
