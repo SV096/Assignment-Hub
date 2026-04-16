@@ -1,47 +1,35 @@
 # Employee Directory
 
-Browse and search employees with real-time filtering.
+Employee search and directory app with real-time filtering.
 
 ## Tech Stack
 
 - Next.js 16, React 19, TypeScript, Tailwind CSS
 
-## Setup
+## Quick Start
 
 ```bash
 npm install
-npm run dev
+npm run dev    # Port 3000
 ```
-
-Open [http://localhost:3000](http://localhost:3000)
 
 ## Features
 
-- Employee directory with search
-- Detailed employee profiles
-- Responsive design
-- JSONPlaceholder API integration
-- Mobile-first responsive design
-- Works on iOS Safari, Chrome, Firefox, Edge
+✅ Real-time employee search  
+✅ Employee profiles with details  
+✅ Responsive design (mobile-first)  
+✅ JSONPlaceholder API integration  
+✅ Fully typed with TypeScript  
+✅ Tailwind CSS styling
 
-## 🔒 Type Safety
+## Routes
 
-Fully typed with TypeScript for better development experience and error prevention.
+- `/` - Employee directory with search
+- `/user/[id]` - Employee profile page
 
-```typescript
-type User = {
-  id: number;
-  name: string;
-  email: string;
-  phone: string;
-  company: { name: string };
-  // ... more fields
-};
-```
+## Type Safety
 
-## 📝 License
-
-This is a practice project.
+Fully typed TypeScript for better DX and error prevention.
 
 ---
 

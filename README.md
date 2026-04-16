@@ -1,26 +1,47 @@
 # Assignment-Hub
 
-A collection of full-stack practice projects.
+Full-stack practice projects collection.
 
 ## Projects
 
-- **[Employee Directory](./employee-directory)** - Browse and search employees with Next.js + React + TypeScript
+### Backend
 
-## Setup
+- **[Auth User Service](./auth-user-service)** - JWT authentication API
+  - Express.js, MongoDB, Node.js
+  - User registration, login, password reset, CRUD
+  - Port: 5000
+
+### Frontend
+
+- **[Employee Directory](./Employee-Directory)** - Employee search app
+  - Next.js, React 19, TypeScript, Tailwind CSS
+  - Real-time search, employee profiles
+  - Port: 3000
+
+## Quick Start
 
 ```bash
-cd <project-name>
-npm install
-npm run dev
+# Backend
+cd auth-user-service
+npm install && npm run dev
+
+# Frontend
+cd Employee-Directory
+npm install && npm run dev
 ```
 
-- ✅ Client-side routing
-- ✅ Component architecture
-- ✅ TypeScript for type safety
-- ✅ Styling at scale
-- ✅ Performance optimization
-- ✅ Error handling and edge cases
+## Requirements
 
----
+- Node.js v14+
+- MongoDB running locally
+- npm or yarn
 
-**Start with**: [Employee Directory](./employee-directory)
+## Project Structure
+
+```
+Assignment-Hub/
+├── auth-user-service/      # Backend API
+└── Employee-Directory/     # Frontend App
+```
+
+Each project has its own README with detailed setup instructions.
