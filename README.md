@@ -45,6 +45,4 @@ Assignment-Hub/
 └── Employee-Directory/     # Frontend App
 ```
 
-Each project has its own README with detailed setup instructions.
-=======
->>>>>>> 4e81c292e5052b353310b31bb31721960f1ba488
+
